@@ -19,7 +19,7 @@ Success :)
 
 <b>Model Description:</b>
 1. <b>Barcelona Model</b>
-  - Attempt to use a complex functions and guide the car to follow a drawn line based off of Fernando Alonso's F1 track record in 2018.
+  - Attempt to use a complex functions and guide the car to follow a drawn line based off of Fernando Alonso's F1 drive through in 2018 (https://www.youtube.com/watch?v=e5uArfwC4Zk).
   - Too complex, convergence was too slow, car wasn't really learning
   - Performed decently, was my leading Barcelona model until All You Model (#5)
 2. <b>Slow Complex Model</b>
