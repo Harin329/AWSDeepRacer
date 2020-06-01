@@ -1,0 +1,293 @@
+{
+  "id": "dd09a978-e5ac-444c-8897-5ad67a17a1a3",
+  "version": "2.0",
+  "name": "DeepRacer",
+  "url": "https://console.aws.amazon.com/deepracer/home?region=us-east-1#summitLeague/arn%3Aaws%3Adeepracer%3Aus-east-1%3A%3Aleaderboard%2Fsummit-season-2020-05-h2h/submitModel",
+  "tests": [{
+    "id": "fa00ee17-a948-4b85-a5da-7afb6f91fedc",
+    "name": "Summit",
+    "commands": [{
+      "id": "00824630-480a-42c0-83f4-870c3fdf0652",
+      "comment": "",
+      "command": "times",
+      "target": "100",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95de2505-cd75-40a4-a5f8-001dc1705358",
+      "comment": "",
+      "command": "pause",
+      "target": "900000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "88a2b900-4790-4ff4-a55f-290436a64c48",
+      "comment": "",
+      "command": "open",
+      "target": "https://console.aws.amazon.com/deepracer/home?region=us-east-1#summitLeague/arn%3Aaws%3Adeepracer%3Aus-east-1%3A%3Aleaderboard%2Fsummit-season-2020-05-tt/submitModel",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b939ed4d-9681-4fc7-81ab-846ef66ee1c9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1680x1050",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f024132-c5a9-4204-82e6-523f61026cb3",
+      "comment": "",
+      "command": "click",
+      "target": "id=awsui-select-0-textbox",
+      "targets": [
+        ["id=awsui-select-0-textbox", "id"],
+        ["css=#awsui-select-0-textbox", "css:finder"],
+        ["xpath=//span[@id='awsui-select-0-textbox']", "xpath:attributes"],
+        ["xpath=//div[@id='awsui-select-0']/div/span", "xpath:idRelative"],
+        ["xpath=//awsui-select-trigger/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "163c8eaf-eb8e-45f5-984f-de3361a7b91f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#awsui-select-0-dropdown-option-4 > .awsui-select-option",
+      "targets": [
+        ["css=#awsui-select-0-dropdown-option-4 > .awsui-select-option", "css:finder"],
+        ["xpath=//li[@id='awsui-select-0-dropdown-option-4']/div", "xpath:idRelative"],
+        ["xpath=//awsui-select-dropdown/div/div/ul/li[5]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0bd4ca3-f833-44ab-bb44-b4d9db340a76",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#awsui-select-0-dropdown-option-4 > .awsui-select-option",
+      "targets": [
+        ["css=#awsui-select-0-dropdown-option-4 > .awsui-select-option", "css:finder"],
+        ["xpath=//li[@id='awsui-select-0-dropdown-option-4']/div", "xpath:idRelative"],
+        ["xpath=//awsui-select-dropdown/div/div/ul/li[5]/div", "xpath:position"]
+      ],
+      "value": "Midway-4-2"
+    }, {
+      "id": "4cd95c45-cfd1-4297-abc0-84c843aa0d3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#awsui-select-0-dropdown-option-4 > .awsui-select-option",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "910862b2-29f6-483c-b70e-86c0673c17f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.awsui-button-variant-primary > span",
+      "targets": [
+        ["css=.awsui-button-variant-primary > span", "css:finder"],
+        ["xpath=//awsui-form[@id='PLCHLDR_submit_model']/div/div[4]/span/div/span/awsui-button/button/span", "xpath:idRelative"],
+        ["xpath=//span/awsui-button/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9bc9d9c-1550-4840-990e-f46776486264",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "464fd4ca-e074-4952-94e0-db2a06bfea17",
+    "name": "Spain",
+    "commands": [{
+      "id": "0980c7ae-356e-4815-b345-65567c81dcf8",
+      "comment": "",
+      "command": "times",
+      "target": "100",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b07f2273-883c-4ed9-bb9e-365320c0d955",
+      "comment": "",
+      "command": "pause",
+      "target": "900000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "60295108-06eb-4c07-bb30-694a4af0c452",
+      "comment": "",
+      "command": "open",
+      "target": "https://console.aws.amazon.com/deepracer/home?region=us-east-1#league/arn%3Aaws%3Adeepracer%3Aus-east-1%3A%3Aleaderboard%2Fvirtual-season-2020-05-tt/submitModel",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc348a60-1ef7-45f3-9d7b-1c660c54bf94",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1680x1050",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8154e015-5aa9-4526-95c2-8280839f8cc3",
+      "comment": "",
+      "command": "click",
+      "target": "id=awsui-select-0-textbox",
+      "targets": [
+        ["id=awsui-select-0-textbox", "id"],
+        ["css=#awsui-select-0-textbox", "css:finder"],
+        ["xpath=//span[@id='awsui-select-0-textbox']", "xpath:attributes"],
+        ["xpath=//div[@id='awsui-select-0']/div/span", "xpath:idRelative"],
+        ["xpath=//awsui-select-trigger/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a206d802-7e59-48d5-a846-941f5d736dac",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#awsui-select-0-dropdown-option-12 .awsui-select-option-label-content",
+      "targets": [
+        ["css=#awsui-select-0-dropdown-option-12 .awsui-select-option-label-content", "css:finder"],
+        ["xpath=//li[@id='awsui-select-0-dropdown-option-12']/div/div/div", "xpath:idRelative"],
+        ["xpath=//li[13]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c89efe8a-1b39-4d21-9b3c-8d039e120294",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#awsui-select-0-dropdown-option-12 .awsui-select-option-label-content",
+      "targets": [
+        ["css=#awsui-select-0-dropdown-option-12 .awsui-select-option-label-content", "css:finder"],
+        ["xpath=//li[@id='awsui-select-0-dropdown-option-12']/div/div/div", "xpath:idRelative"],
+        ["xpath=//li[13]/div/div/div", "xpath:position"]
+      ],
+      "value": "Barca-Mach4"
+    }, {
+      "id": "03663722-9a03-4edd-91e8-12e63afcb960",
+      "comment": "",
+      "command": "click",
+      "target": "css=#awsui-select-0-dropdown-option-12 .awsui-select-option-label-content",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a136c81-20f8-49fc-bde2-e137b32e68d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.awsui-button-variant-primary > span",
+      "targets": [
+        ["css=.awsui-button-variant-primary > span", "css:finder"],
+        ["xpath=//awsui-form[@id='PLCHLDR_submit_model']/div/div[4]/span/div/span/awsui-button/button/span", "xpath:idRelative"],
+        ["xpath=//span/awsui-button/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33db024c-024a-433d-8c50-b5591cc19a21",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "8a649079-2e66-4228-aee9-ae45f9cad90c",
+    "name": "Summit H2H",
+    "commands": [{
+      "id": "995f2d98-ac5b-4120-8dfa-10d7edc04508",
+      "comment": "",
+      "command": "times",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4cbf2003-bc82-45b7-b381-0d771e248953",
+      "comment": "",
+      "command": "pause",
+      "target": "900000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6bd37311-b2df-4c13-9dc7-26720f9695cb",
+      "comment": "",
+      "command": "open",
+      "target": "https://console.aws.amazon.com/deepracer/home?region=us-east-1#summitLeague/arn%3Aaws%3Adeepracer%3Aus-east-1%3A%3Aleaderboard%2Fsummit-season-2020-05-h2h/submitModel",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14194459-4aef-43b2-9609-67d4cb343731",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1680x1050",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1f507b13-4c00-4311-98e6-4ef288153422",
+      "comment": "",
+      "command": "click",
+      "target": "id=awsui-select-0-textbox",
+      "targets": [
+        ["id=awsui-select-0-textbox", "id"],
+        ["css=#awsui-select-0-textbox", "css:finder"],
+        ["xpath=//span[@id='awsui-select-0-textbox']", "xpath:attributes"],
+        ["xpath=//div[@id='awsui-select-0']/div/span", "xpath:idRelative"],
+        ["xpath=//awsui-select-trigger/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3ce1afb-5e95-4049-9784-001223eb7620",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#awsui-select-0-dropdown-option-24 > .awsui-select-option",
+      "targets": [
+        ["css=#awsui-select-0-dropdown-option-4 > .awsui-select-option", "css:finder"],
+        ["xpath=//li[@id='awsui-select-0-dropdown-option-4']/div", "xpath:idRelative"],
+        ["xpath=//awsui-select-dropdown/div/div/ul/li[5]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74960619-fef9-4595-bf03-f357993406df",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#awsui-select-0-dropdown-option-24 > .awsui-select-option",
+      "targets": [
+        ["css=#awsui-select-0-dropdown-option-4 > .awsui-select-option", "css:finder"],
+        ["xpath=//li[@id='awsui-select-0-dropdown-option-4']/div", "xpath:idRelative"],
+        ["xpath=//awsui-select-dropdown/div/div/ul/li[5]/div", "xpath:position"]
+      ],
+      "value": "TurtleBrain-4-Gen3 Process"
+    }, {
+      "id": "da79af45-62cd-4bec-bccd-5d5d4fbc6322",
+      "comment": "",
+      "command": "click",
+      "target": "css=#awsui-select-0-dropdown-option-24 > .awsui-select-option",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa7bba1b-58b7-4f52-ae97-ccfe8834d406",
+      "comment": "",
+      "command": "click",
+      "target": "css=.awsui-button-variant-primary > span",
+      "targets": [
+        ["css=.awsui-button-variant-primary > span", "css:finder"],
+        ["xpath=//awsui-form[@id='PLCHLDR_submit_model']/div/div[4]/span/div/span/awsui-button/button/span", "xpath:idRelative"],
+        ["xpath=//span/awsui-button/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "164977a1-a1bf-4fc7-9572-b507748781e7",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "10a14640-547e-4c92-bf1a-e2078161a827",
+    "name": "",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["fa00ee17-a948-4b85-a5da-7afb6f91fedc"]
+  }],
+  "urls": ["https://console.aws.amazon.com/deepracer/home?region=us-east-1#summitLeague/arn%3Aaws%3Adeepracer%3Aus-east-1%3A%3Aleaderboard%2Fsummit-season-2020-05-tt/submitModel", "https://console.aws.amazon.com/deepracer/home?region=us-east-1#summitLeague/arn%3Aaws%3Adeepracer%3Aus-east-1%3A%3Aleaderboard%2Fsummit-season-2020-05-h2h/submitModel"],
+  "plugins": []
+}
